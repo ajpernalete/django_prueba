@@ -10,8 +10,10 @@
         {#Esto es un comentario Django#}
         {% for product in object_list %}
             <li class="list-group-item">
-                {{product.title}}
+                <a href="productos/{{ product.slug }}">
+                    {{product.title}}
                     <span class="text-success">{{ product.price }}</span>
+                </a>
             </li>
         {% endfor %}
     </ul>
