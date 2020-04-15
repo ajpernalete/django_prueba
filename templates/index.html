@@ -11,11 +11,7 @@
         {% for product in products %}
             <li class="list-group-item">
                 {{product.title}}
-                    {% if product.stock %}
-                    <span class="text-success">Disponible</span>
-                    {% else %}
-                    <span class="text-danger"> No disponible</span>
-                    {% endif%}
+                    <span class="text-success">{{ product.price }}</span>
             </li>
         {% endfor %}
     </ul>
