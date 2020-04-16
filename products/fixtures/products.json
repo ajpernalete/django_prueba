@@ -1,0 +1,38 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "Mochila",
+        "description": "Mochila azul",
+        "price": "30.00",
+        "slug": "mochila",
+        "image": "products/mochila.png",
+        "created_at": "2020-04-15T23:30:30.103Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "Franela para hombre",
+        "description": "Franela roja",
+        "price": "15.00",
+        "slug": "franela-para-hombre",
+        "image": "products/franela-roja.jpg",
+        "created_at": "2020-04-16T01:13:33.204Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "Franela para mujer",
+        "description": "Franela Rosada",
+        "price": "12.00",
+        "slug": "franela-para-mujer",
+        "image": "products/franela-rosada.jpg",
+        "created_at": "2020-04-16T01:15:01.965Z"
+    }
+}
+]
