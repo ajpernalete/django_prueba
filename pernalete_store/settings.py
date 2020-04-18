@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'users',
     'products',
     'categories',
     'django.contrib.admin',
@@ -52,6 +53,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'pernalete_store.urls'
+
+AUTH_USER_MODEL = 'users.User'
 
 TEMPLATES = [
     {
