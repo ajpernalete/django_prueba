@@ -1,0 +1,53 @@
+name: django
+channels:
+  - intel
+  - defaults
+dependencies:
+  - bzip2=1.0.8=vc14_1
+  - certifi=2018.1.18=py36_2
+  - intelpython=2020.1=0
+  - openssl=1.0.2s=vc14_0
+  - pip=19.1.1=py36_0
+  - python=3.6.9=5
+  - setuptools=41.0.1=py36_0
+  - sqlite=3.28.0=vc14_0
+  - tcl=8.6.4=vc14_24
+  - tk=8.6.4=vc14_29
+  - vc=14.0=2
+  - vs2015_runtime=14.0.25420=intel_3
+  - wheel=0.31.0=py36_3
+  - wincertstore=0.2=py36_3
+  - xz=5.2.4=vc14_5
+  - zlib=1.2.11.1=vc14hfa6e2cd_1
+  - pip:
+    - asgiref==3.2.7
+    - astroid==2.3.3
+    - chardet==3.0.4
+    - colorama==0.4.3
+    - coreapi==2.3.3
+    - coreschema==0.0.4
+    - dj-database-url==0.5.0
+    - django==3.0.5
+    - djangorestframework==3.11.0
+    - idna==2.9
+    - isort==4.3.21
+    - itypes==1.1.0
+    - jinja2==2.11.2
+    - lazy-object-proxy==1.4.3
+    - markupsafe==1.1.1
+    - mccabe==0.6.1
+    - pillow==7.1.1
+    - pygments==2.6.1
+    - pylint==2.4.4
+    - pytz==2019.3
+    - pyyaml==5.3.1
+    - requests==2.23.0
+    - six==1.14.0
+    - sqlparse==0.3.1
+    - typed-ast==1.4.1
+    - uritemplate==3.0.1
+    - urllib3==1.25.9
+    - whitenoise==5.0.1
+    - wrapt==1.11.2
+prefix: C:\Users\HP\.conda\envs\django
+
