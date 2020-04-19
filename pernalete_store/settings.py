@@ -86,7 +86,7 @@ DATABASES = {
         'PASSWORD': 'Pernalete12345',
         'HOST': 'ttc-scan-test.mysql.database.azure.com',
         'PORT': '3306'
-    }
+    } 
 }
 
 
