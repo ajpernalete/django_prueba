@@ -25,7 +25,7 @@ SECRET_KEY = '%+mb*_19&@i+)koev(!i==xkl^6qsvq3vv=y3%f&)@usw68h&f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'pernalete_store.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ttc-scan-test',
+        'USER': 'ttc_scan_admin@ttc-scan-test',
+        'PASSWORD': 'Pernalete12345',
+        'HOST': 'ttc-scan-test.mysql.database.azure.com',
+        'PORT': '3306'
     }
 }
 
