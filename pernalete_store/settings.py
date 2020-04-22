@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'users',
+    'carts',
     'products',
     'categories',
     'django.contrib.admin',
@@ -88,7 +89,16 @@ DATABASES = {
         'PORT': '3306'
     } 
 }
-
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'pernalete_store',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+    } 
+}"""
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
