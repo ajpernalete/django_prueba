@@ -93,10 +93,10 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pernalete_store',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': 'ttc-scan-test',
+        'USER': 'ttc_scan_admin@ttc-scan-test',
+        'PASSWORD': 'Pernalete12345',
+        'HOST': 'ttc-scan-test.mysql.database.azure.com',
     } 
 }"""
 
