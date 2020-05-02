@@ -22,7 +22,7 @@ class ProductDetailList(DetailView): #id -> pk
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        print(context)
+        #print(context)
         return context
 
 class ProductSearchListView(ListView):
