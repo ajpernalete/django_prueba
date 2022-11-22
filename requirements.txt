@@ -14,7 +14,7 @@ jinja2==2.11.2
 lazy-object-proxy==1.4.3
 markupsafe==1.1.1
 mccabe==0.6.1
-pillow==7.1.1
+pillow==9.3.0
 mysqlclient==1.4.6
 pygments==2.6.1
 pylint==2.4.4
